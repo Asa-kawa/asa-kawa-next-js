@@ -7,7 +7,8 @@ export default function Home() {
       <button
         onClick={() => {
           alert("next-js");
-        }}>
+        }}
+        >
         Asa-kawa
       </button>
     </div>
