@@ -6,9 +6,9 @@ export default function Home() {
       <p>next-js</p>
       <button
         onClick={() => {
-          alert(0);
+          alert("next-js");
         }}>
-        Asahi
+        Asa-kawa
       </button>
     </div>
   );
