@@ -1,5 +1,6 @@
 "use client";
 
+import { hash } from "crypto";
 import "./web.css";
 
 export default function Home() {
@@ -13,7 +14,15 @@ export default function Home() {
         }}
         >
         ???
+      </button><br />
+      <button
+        id="website-list-button"
+        onClick={() => {
+          location.href = ("https://asa-kawa.github.io/Asa-kawaWebsitelist/");
+        }}>
+          ウェブサイト一覧
       </button>
+      <audio src="./next js.mp3" controls>next-js</audio>
     </div>
   );
 }
