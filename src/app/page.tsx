@@ -21,7 +21,7 @@ export default function Home() {
           location.href = ("https://asa-kawa.github.io/Asa-kawaWebsitelist/");
         }}>
           ウェブサイト一覧
-      </button>
+      </button><br />
       <audio src="./next js.mp3" controls>next-js</audio>
     </div>
   );
