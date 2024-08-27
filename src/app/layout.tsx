@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "next-js",
-  description: "これはnext-jsです",
+  description: "これは楽しいやつです :D",
 };
 
 export default function RootLayout({
