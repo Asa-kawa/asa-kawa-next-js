@@ -1,6 +1,5 @@
 "use client";
 
-import { hash } from "crypto";
 import "./web.css";
 
 export default function Home() {
